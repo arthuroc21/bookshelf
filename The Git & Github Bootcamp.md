@@ -71,12 +71,31 @@
 * **cd (change directory) folderName**: Change and move between folders
 
 ```git
-   cd folderName
+   cd folderName/
 ```
   
 * **cd ..**: "Back up" one directory
 
 ```git
    cd ..
+```
+  
+* Creates a file (or mutiples)
+
+```git
+   touch fileName.extension
+   touch fileName1.extension fileName2.extension fileName3.extension
+```
+  
+* Gives information on the current status of a git repository and its contents
+
+```git
+   git status
+```
+  
+* Creates a new git repository
+
+```git
+   git init
 ```
 </details>
