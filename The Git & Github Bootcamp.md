@@ -123,7 +123,7 @@
 ```git
    git init
 ```
-> 📝 Note: [init documentation](https://git-scm.com/docs/git-init).
+> 📝 Note: [init documentation](https://git-scm.com/docs/git-init).  
 > 📝 Note: Do not init a repo inside of a repo!
 
 * **ls -a**: List all hidden files
