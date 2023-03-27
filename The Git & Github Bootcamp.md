@@ -1,6 +1,6 @@
 # The Git & Github Bootcamp
 
-These are my notes from a online bootcamp that I took about Git and Github.  
+These are my notes from an online bootcamp that I took about Git and Github.  
 I'm gonna leave the bootcamp's link [HERE](https://www.udemy.com/course/git-and-github-bootcamp/) in case you wanna check for yourself.
 
 <details>
