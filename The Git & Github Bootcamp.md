@@ -96,7 +96,7 @@ I'm gonna leave the bootcamp's link [HERE](https://www.udemy.com/course/git-and-
 
   ```git
      mkdir folderName
-     touch folderName1 folderName2 folderName3
+     mkdir folderName1 folderName2 folderName3
   ```
   > 📝 Note: The folder name mustn't contain space. If necessary, you need to use quotes i.e "Sea Turtles".
 
@@ -141,4 +141,53 @@ I'm gonna leave the bootcamp's link [HERE](https://www.udemy.com/course/git-and-
   ```git
      ls -a
   ```
+  
+  * Add changes from the working directory to be commited later
+
+  ```git
+     git add fileName
+     git add fileName1 fileName2 fileName3
+  ```
+  > 📝 Note: [add documentation](https://git-scm.com/docs/git-add).
+  
+  * Add all changes at once from the working directory to be commited later
+
+  ```git
+     git add .
+  ```
+  
+  * Commits the files
+
+  ```git
+     git commit
+  ```
+  > 📝 Note: [commit documentation](https://git-scm.com/docs/git-commit).  
+  > 📝 Note: It opens the terminal to edit the commit message. To use a code editor (e.g. Visual Studio Code) to edit the commit message, check the section "Configuring Git's Default Editor".
+
+  * Commits the files with a message
+
+  ```git
+     git commit -m "my message"
+  ```
+  
+  * Log of the commits for a given repository
+
+  ```git
+     git log
+  ```
+  > 📝 Note: [log documentation](https://git-scm.com/docs/git-log). 
+
+</details>
+
+<details>
+  <summary>Commits In Detail (And Related Topics)</summary>
+
+  ### Reference Manual To All Git Commands And Main Topics
+  [Git Documentation](https://git-scm.com/docs). 
+  
+  ### Configuring Git's Default Editor
+  [Git's Editor Configuration](https://git-scm.com/book/en/v2/Appendix-C%3A-Git-Commands-Setup-and-Config). 
+  
+  ### Some commands
+  
 </details>
