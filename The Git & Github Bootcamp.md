@@ -4,7 +4,7 @@ These are my notes from an online bootcamp that I took about Git and Github.
 I'm gonna leave the bootcamp's link [HERE](https://www.udemy.com/course/git-and-github-bootcamp/) in case you wanna check for yourself.
 
 <details>
-  <summary>Installation & Set Up</summary>
+  <summary>Set Up</summary>
 
   ### Some commands
 
@@ -190,4 +190,31 @@ I'm gonna leave the bootcamp's link [HERE](https://www.udemy.com/course/git-and-
   
   ### Some commands
   
+  * Commit a forgotten file to the previous commit command
+
+  ```git
+     git commit --amend
+  ```
+  > 📝 Note: It only works for the last commit command. If there's need to update a previous commit command, this tag --amend doesn't work.
+  > 📝 Note: The command opens the terminal to edit the commit message. 
+  
+  * Ignoring files on Git
+
+  ```git
+     git touch .gitignore
+  ```
+  > 📝 Note: This command will create a file with .gitignore extension. All files to be ignored must be written down on this file.  
+  > 📝 Note: The command opens the terminal to edit the text.  
+  > 📝 Note: .fileName will ignore files named fileName.  
+  > 📝 Note: folderName/ will ignore an entire directory.  
+  > 📝 Note: *.log will ignore any files with the .log extension.  
+  > 📝 Note: [GitIgnore documentation](https://git-scm.com/docs/gitignore).
+  
+</details>
+
+<details>
+  <summary>Working With Branches</summary>
+  
+  ### Some commands
+
 </details>
